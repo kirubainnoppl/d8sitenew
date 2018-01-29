@@ -4,10 +4,12 @@ status: true
 dependencies:
   config:
     - field.field.node.news.body
+    - field.field.node.news.field_comments
     - field.field.node.news.field_img
     - image.style.thumbnail
     - node.type.news
   module:
+    - comment
     - image
     - path
     - text
@@ -31,6 +33,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_comments:
+    weight: 33
+    settings: {  }
+    third_party_settings: {  }
+    type: comment_default
+    region: content
   field_img:
     weight: 32
     settings:
