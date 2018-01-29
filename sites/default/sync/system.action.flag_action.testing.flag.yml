@@ -1,0 +1,13 @@
+uuid: 0ddbd853-95e4-4003-a787-fde68fd3ec65
+langcode: en
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.testing.flag
+label: 'Flag this item'
+type: node
+plugin: 'flag_action:testing.flag'
+configuration:
+  flag_id: testing
+  flag_action: flag

@@ -1,0 +1,5 @@
+bundles:
+  node-article: node-article
+  node-page: 0
+vocabularies:
+  tags: tags
