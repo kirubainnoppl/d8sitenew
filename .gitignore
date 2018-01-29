@@ -1,0 +1,4 @@
+.htaccess
+*.zip
+*.sql
+/sites/default/settings.php
